@@ -5,21 +5,22 @@
   "type": "module",
 
   "scripts": {
-    "dev": "vite",
-    "build": "vite build --force",
-    "preview": "vite preview"
+    "dev": "npx vite",
+    "build": "npx vite build --force",
+    "preview": "npx vite preview"
   },
 
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "axios": "^1.6.0",
-    "react-router-dom": "^6.22.0",
+    "react-router-dom": "^6.22.0"
+  },
+
+  "devDependencies": {
     "vite": "^5.0.0",
     "@vitejs/plugin-react": "^4.2.0"
   },
-
-  "devDependencies": {},
 
   "engines": {
     "node": "24.x"
